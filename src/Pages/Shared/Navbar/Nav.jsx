@@ -13,7 +13,7 @@ const Nav = () => {
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-[185px] ml-5 md:w-[500px] lg:w-[700px]"
+              className="input input-bordered w-[100px] ml-5 md:w-[500px] lg:w-[700px]"
             />
           </div>
           <div className="flex-none">
