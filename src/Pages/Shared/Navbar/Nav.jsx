@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
-      <div className="navbar">
-        <div className="flex-1">
+    <div className="max-w-[1300px] mx-auto">
+      <div className="navbar p-5 ">
+        <div className="flex md:flex-1 ">
           <a className="font-bold text-2xl">pti.</a>
         </div>
         <div className="flex-1 gap-10">
@@ -13,7 +13,7 @@ const Nav = () => {
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-24 md:w-[700px]"
+              className="input input-bordered w-[185px] ml-5 md:w-[500px] lg:w-[700px]"
             />
           </div>
           <div className="flex-none">
@@ -31,7 +31,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown dropdown-end">
+          <div className="dropdown dropdown-end hidden lg:block">
             <div
               tabIndex={0}
               role="button"
