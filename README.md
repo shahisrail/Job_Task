@@ -31,12 +31,14 @@ react-router-dom
 ### Input Field: Implement an image input field within the footer.
 ### Social Icons: Add social media icons 
 
-
 ## Technology Stack
 ### React Router: For handling navigation
 ### JavaScript: For dynamic behavior and logic.
 ### React Hook Form: For managing forms in React components.
 ### Axios: For fetching data from external sources.
 ### Tailwind CSS: For styling and designing the UI.
+
+## Use Case Example
+### Add Content through "AddMore": Demonstrate the functionality of clicking the "Add More" button, opening a form modal, submitting form data, and visualizing the added content in real-time through sliders.
 
 # Project Live Link : https://job-task-pti.netlify.app/ 
