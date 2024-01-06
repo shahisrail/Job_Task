@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
+import  "./nav.css"
 
 
 const Nav = () => {
@@ -8,7 +9,7 @@ const Nav = () => {
     <div className="max-w-[1300px] mx-auto">
       <div className="navbar p-5 ">
         <div className="flex md:flex-1 ">
-          <a className="font-bold text-2xl">pti.</a>
+          <a className="font-bold text-1xl md:text-2xl">pti.</a>
         </div>
         <div className="flex-1 gap-5 lg:gap-10">
           <div className="form-control">

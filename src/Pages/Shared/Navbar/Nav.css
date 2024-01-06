@@ -1,0 +1,12 @@
+@media (min-width: 320px) and (max-width: 340px) {
+    .input {
+      width: 130px !important;
+    }
+  }
+  
+@media (min-width: 340px) and (max-width: 424px) {
+    .input {
+      width: 175px !important;
+    }
+  }
+  
