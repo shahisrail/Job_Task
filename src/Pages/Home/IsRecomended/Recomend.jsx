@@ -91,14 +91,14 @@ const Recomend = () => {
 
   return (
     <>
-      <div className="p-3">
+      <div className="p-3 -mt-[30px]">
      
         <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Recommended</h2>
         <div className="flex justify-end mb-3">
           <h2 className="text-2xl flex justify-center items-center ">
-            <button className="btn-grad  h-[70px]" onClick={openModal}>
-              Add More
+            <button className="btn-grad hidden md:block text-[#EE9E1E] h-[70px]" onClick={openModal}>
+              AddMore
             </button>
             {modalOpen && (
               <div className="fixed inset-0 z-50 overflow-y-auto">

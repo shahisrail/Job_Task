@@ -9,9 +9,9 @@ const Nav = () => {
     <div className="max-w-[1300px] mx-auto">
       <div className="navbar p-5 ">
         <div className="flex md:flex-1 ">
-          <a className="font-bold text-1xl md:text-2xl">pti.</a>
+          <a className="font-bold text-1xl- md:text-2xl">pti.</a>
         </div>
-        <div className="flex-1 gap-5 lg:gap-10">
+        <div className="flex-1 gap-5 lg:gap-3">
           <div className="form-control">
         <div className="absolute">
         <IoSearch className=" text-2xl relative top-3.5 text-[#EE9E1E] left-7  mr-2" />
@@ -24,7 +24,7 @@ const Nav = () => {
             />
           </div>
           <div className="flex-none">
-            <ul className="menu menu-horizontal px-1 text-[#EE9E1E] bg-white rounded-2xl">
+            <ul className="menu md:w-[200px]  px-1 text-[#EE9E1E] bg-white rounded-xl">
               <li>
                 <details>
                   <summary className="text-1xl">MENU</summary>

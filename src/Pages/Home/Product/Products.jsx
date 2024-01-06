@@ -91,17 +91,17 @@ const Products = () => {
 
   return (
     <>
-      <div className="p-3">
+      <div className="p-3 md:mt-16">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold">Popular</h2>
 
           <div className="flex justify-end mb-3">
             <h2 className="text-2xl flex justify-center items-center ">
               <button
-                className="btn-grad  h-[70px]"
+                className="btn-grad text-[#EE9E1E] hidden md:block h-[70px]"
                 onClick={openModal}
               >
-                Add More
+                AddMore
               </button>
               {modalOpen && (
                 <div className="fixed inset-0 z-50 overflow-y-auto">

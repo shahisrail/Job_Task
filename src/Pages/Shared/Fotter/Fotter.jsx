@@ -3,16 +3,16 @@ import { FaArrowRight, FaGoogle, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Fotter = () => {
   return (
-    <div className="bg-[#EE9E1E]  ">
+    <div className="bg-[#EE9E1E] mt-32 ">
       <div className="flex gap-5 max-w-[1300px] mx-auto p-5 lg:p-10">
         <div className="flex-1 ">
           <div className="relative ">
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="input rounded-3xl input-bordered p-4 input-warning w-full mt-10  lg:mt-32 "
+              className=" rounded-md md:rounded-3xl input-bordered p-4 input-warning w-full mt-10  lg:mt-32 "
             />
-            <button className=" absolute px-6 flex py-1 justify-center items-center right-3 bottom-2 rounded-3xl text-white  bg-[#E85E2A] ">
+            <button className=" absolute px-6 flex py-1 justify-center items-center right-3 bottom-2 rounded-3xl text-[#E85E2A] md:text-white  md:bg-[#E85E2A] ">
               Subscrive <FaArrowRight className="pl-1"></FaArrowRight>{" "}
             </button>
           </div>
@@ -32,9 +32,9 @@ const Fotter = () => {
                 <FaInstagram className=" bg-[#E85E2A] text-white lg:text-[#E85E2A] lg:bg-white rounded-full text-4xl lg:text-3xl p-2 lg:p-1 "></FaInstagram>
               </h2>
             </div>
-            <div className="mt-5 lg:mt-36">
+            <div className="mt-5 lg:mt-24">
               <h2 className="text-2xl font-bold text-center lg:text-start">
-                pti.
+                pti<span className="text-[#E85E2A]">.</span>
               </h2>
             </div>
             <div className="flex flex-col lg:flex-row mt-5 lg:mt-0 justify-between">
@@ -59,7 +59,7 @@ const Fotter = () => {
           </div>
         </div>
         <div className="hidden lg:block">
-          <img src="https://i.postimg.cc/BQsKFPZX/Image2.png" alt="" />
+          <img className="h-[400px]" src="https://i.postimg.cc/BQsKFPZX/Image2.png" alt="" />
         </div>
       </div>
     </div>
