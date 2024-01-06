@@ -10,9 +10,9 @@ const Fotter = () => {
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="input  input-bordered p-4 input-warning w-full mt-10  lg:mt-32 "
+              className="input rounded-3xl input-bordered p-4 input-warning w-full mt-10  lg:mt-32 "
             />
-            <button className=" absolute px-6 flex py-1 justify-center items-center right-1 bottom-1.5 rounded-3xl text-white  bg-[#E85E2A] ">
+            <button className=" absolute px-6 flex py-1 justify-center items-center right-3 bottom-2 rounded-3xl text-white  bg-[#E85E2A] ">
               Subscrive <FaArrowRight className="pl-1"></FaArrowRight>{" "}
             </button>
           </div>
